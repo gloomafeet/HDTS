@@ -3,7 +3,7 @@ from geolocation.distance_matrix.client import DistanceMatrixApiClient
 
 address = "Taj Mahal Agra"
 
-google_maps = GoogleMaps(api_key= 'AIzaSyAltTusUj7PiG8rUHHCRz2vpTEY0CH2y-o')
+google_maps = GoogleMaps(api_key= 'xyz')
 
 location = google_maps.search(location=address) # sends search to Google Maps.
 
